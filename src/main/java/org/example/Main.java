@@ -8,9 +8,9 @@ public class Main {
 
         Profiler profiler = new Profiler();
 
-        ArrayList<Integer> input = new ArrayList<>(Arrays.asList(5,2,1,3,1,2,6,9));
+        ArrayList<Integer> input = new ArrayList<>(Arrays.asList(5,5,5,5,1));
         profiler.setData(input);
-        profiler.setLib(new SelectionSort());
+        profiler.setLib(new InsertionSort());
         profiler.runLib();
         profiler.showResult();
     }

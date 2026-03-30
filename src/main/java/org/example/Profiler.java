@@ -20,7 +20,7 @@ public class Profiler {
     }
 
     public void showResult(){
-        System.out.println(sortLib.getName()+"테스트");
+        System.out.println(sortLib.getName()+" 테스트");
         System.out.println("정렬결과 : " + arr);
         System.out.println("swap 횟수 : " + sortLib.getChangeCnt() + "회");
     }
